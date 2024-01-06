@@ -1,0 +1,816 @@
+
+
+:root {
+  --tds-color-text-03: rgba(0,0,0,.4);
+  --tds-color-text-01: rgba(0,0,0,.8);
+  --tds-color-warning-bg: rgba(250,182,25,.12);
+  --tds-color-link: #336fee;
+  --tds-color-link-hover: #1f50ba;
+  --tds-color-neutral-bg: rgba(121,129,140,.12);
+  --tds-color-warning-fill: #fab619;
+  --tds-color-success-fill: #00b92d;
+  --tds-color-error-fill: #f52222;
+  --tds-color-neutral-fill: #79818c;
+  --tds-color-info-fill: #428bf9;
+  --tds-color-base-06: #9299a2;
+  --tds-color-base-01: #fff;
+  --tds-color-focus: rgba(51, 51, 51, 0.48);
+  --tds-color-secondary: #ecf1f7;
+  --tds-color-base-09: #000;
+  --tds-color-base-03: #eaecee;
+  --tds-color-base-04: #dddfe0;
+  --tds-color-primary: #ffdd2d;
+  --tds-color-primary-text: rgba(0,0,0,.8);
+  --tds-color-accent: #428bf9;
+  --tds-color-success-bg: rgba(0,185,45,.12);
+  --tds-color-error-bg: rgba(224,31,25,.12);
+  --tds-color-info-bg: rgba(66,139,249,.12);
+  --tds-color-secondary-hover: #e4ebf3;
+  --tds-color-primary-hover: #fcc521;
+  --tds-color-text-negative-hover: #a00707;
+  --tds-color-text-positive-hover: #00701b;
+  --tds-color-base-07: #5c636b;
+  --tds-color-success-bg-hover: rgba(0,185,45,.24);
+  --tds-color-warning-bg-hover: rgba(250,182,25,.24);
+  --tds-color-error-bg-hover: rgba(224,31,25,.16);
+  --tds-color-neutral-bg-hover: rgba(121,129,140,.24);
+  --tds-color-info-bg-hover: rgba(66,139,249,.24);
+  --tds-color-base-02: #f6f7f8;
+  --tds-color-base-08: #333;
+  --tds-color-text-02: rgba(0,0,0,.54);
+  --tds-color-base-05: #c7c9cc;
+}
+:root {
+  --tui-font-heading: dsHeading,"dsHeading Fallback",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+  --tui-font-heading-1: 700 50px/56px var(--tui-font-heading);
+  --tui-font-heading-2: 700 44px/48px var(--tui-font-heading);
+  --tui-font-heading-3: 500 36px/40px var(--tui-font-heading);
+  --tui-font-heading-4: 500 28px/32px var(--tui-font-heading);
+  --tui-font-heading-5: 500 24px/28px var(--tui-font-heading);
+  --tui-font-heading-6: 500 20px/24px var(--tui-font-heading);
+  --tui-font-text-xl: 400 19px/28px var(--tui-font-text);
+  --tui-font-text-xl-bold: 500 19px/28px var(--tui-font-text);
+  --tui-font-text-ui-l-bold: 500 17px/24px var(--tui-font-text);
+  --tui-font-text-m-bold: 500 15px/24px var(--tui-font-text);
+  --tui-font-text-s-bold: 500 13px/20px var(--tui-font-text);
+  --tui-font-text-xs: 400 11px/16px var(--tui-font-text);
+  --tds-color-text-01: #000000cc;
+  --tds-color-text-02: #0000007a;
+}
+:root {
+  --tui-font-heading: dsHeading,"dsHeading Fallback",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+  --tui-font-heading-1: 700 50px/56px var(--tui-font-heading);
+  --tui-font-heading-2: 700 44px/48px var(--tui-font-heading);
+  --tui-font-heading-3: 500 36px/40px var(--tui-font-heading);
+  --tui-font-heading-4: 500 28px/32px var(--tui-font-heading);
+  --tui-font-heading-5: 500 24px/28px var(--tui-font-heading);
+  --tui-font-heading-6: 500 20px/24px var(--tui-font-heading);
+  --tui-font-text-xl: 400 19px/28px var(--tui-font-text);
+  --tui-font-text-xl-bold: 500 19px/28px var(--tui-font-text);
+  --tui-font-text-ui-l-bold: 500 17px/24px var(--tui-font-text);
+  --tui-font-text-m-bold: 500 15px/24px var(--tui-font-text);
+  --tui-font-text-s-bold: 500 13px/20px var(--tui-font-text);
+  --tui-font-text-xs: 400 11px/16px var(--tui-font-text);
+  --tds-color-text-01: #000000cc;
+  --tds-color-text-02: #0000007a;
+}
+:root {
+  --tui-font-heading-1: 700 50px/56px var(--tui-font-heading);
+  --tui-font-heading-2: 700 44px/48px var(--tui-font-heading);
+  --tui-font-heading-4: 500 28px/32px var(--tui-font-heading);
+  --tui-font-text-xl: 400 19px/28px var(--tui-font-text);
+  --tui-font-text-xl-bold: 500 19px/28px var(--tui-font-text);
+  --tui-font-text-ui-l-bold: 500 17px/24px var(--tui-font-text);
+  --tui-font-text-m-bold: 500 15px/24px var(--tui-font-text);
+  --tui-font-text-s-bold: 500 13px/20px var(--tui-font-text);
+  --tui-font-text-xs: 400 11px/16px var(--tui-font-text);
+  --tds-color-text-01: #000000cc;
+  --tds-color-text-02: #0000007a;
+  --tds-color-text-03: #00000066;
+}
+:root {
+  --tui-font-heading: dsHeading,"dsHeading Fallback",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+  --tui-font-heading-1: 700 50px/56px var(--tui-font-heading);
+  --tui-font-heading-2: 700 44px/48px var(--tui-font-heading);
+  --tui-font-heading-3: 500 36px/40px var(--tui-font-heading);
+  --tui-font-heading-4: 500 28px/32px var(--tui-font-heading);
+  --tui-font-heading-5: 500 24px/28px var(--tui-font-heading);
+  --tui-font-heading-6: 500 20px/24px var(--tui-font-heading);
+  --tui-font-text: dsText,"dsText Fallback",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+  --tui-font-text-xl: 400 19px/28px var(--tui-font-text);
+  --tui-font-text-xl-bold: 500 19px/28px var(--tui-font-text);
+  --tui-font-text-ui-l: 400 17px/24px var(--tui-font-text);
+  --tui-font-text-ui-l-bold: 500 17px/24px var(--tui-font-text);
+  --tui-font-text-m: 400 15px/24px var(--tui-font-text);
+  --tui-font-text-m-bold: 500 15px/24px var(--tui-font-text);
+  --tui-font-text-s: 400 13px/20px var(--tui-font-text);
+  --tui-font-text-s-bold: 500 13px/20px var(--tui-font-text);
+  --tui-font-text-xs: 400 11px/16px var(--tui-font-text);
+  --tds-color-text-01: #000000cc;
+  --tds-color-text-02: #0000007a;
+}
+:root {
+  --tui-font-heading: dsHeading,"dsHeading Fallback",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+  --tui-font-heading-1: 700 50px/56px var(--tui-font-heading);
+  --tui-font-heading-2: 700 44px/48px var(--tui-font-heading);
+  --tui-font-heading-3: 500 36px/40px var(--tui-font-heading);
+  --tui-font-heading-4: 500 28px/32px var(--tui-font-heading);
+  --tui-font-heading-5: 500 24px/28px var(--tui-font-heading);
+  --tui-font-heading-6: 500 20px/24px var(--tui-font-heading);
+  --tui-font-text: dsText,"dsText Fallback",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+  --tui-font-text-xl: 400 19px/28px var(--tui-font-text);
+  --tui-font-text-xl-bold: 500 19px/28px var(--tui-font-text);
+  --tui-font-text-ui-l: 400 17px/24px var(--tui-font-text);
+  --tui-font-text-ui-l-bold: 500 17px/24px var(--tui-font-text);
+  --tui-font-text-m: 400 15px/24px var(--tui-font-text);
+  --tui-font-text-m-bold: 500 15px/24px var(--tui-font-text);
+  --tui-font-text-s: 400 13px/20px var(--tui-font-text);
+  --tui-font-text-s-bold: 500 13px/20px var(--tui-font-text);
+  --tui-font-text-xs: 400 11px/16px var(--tui-font-text);
+  --tds-color-text-01: #000000cc;
+  --tds-color-text-02: #0000007a;
+}
+:root {
+  --tui-font-heading: dsHeading,"dsHeading Fallback",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+  --tui-font-heading-1: 700 50px/56px var(--tui-font-heading);
+  --tui-font-heading-2: 700 44px/48px var(--tui-font-heading);
+  --tui-font-heading-3: 500 36px/40px var(--tui-font-heading);
+  --tui-font-heading-4: 500 28px/32px var(--tui-font-heading);
+  --tui-font-heading-5: 500 24px/28px var(--tui-font-heading);
+  --tui-font-heading-6: 500 20px/24px var(--tui-font-heading);
+  --tui-font-text: dsText,"dsText Fallback",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+  --tui-font-text-xl: 400 19px/28px var(--tui-font-text);
+  --tui-font-text-xl-bold: 500 19px/28px var(--tui-font-text);
+  --tui-font-text-ui-l: 400 17px/24px var(--tui-font-text);
+  --tui-font-text-ui-l-bold: 500 17px/24px var(--tui-font-text);
+  --tui-font-text-m: 400 15px/24px var(--tui-font-text);
+  --tui-font-text-m-bold: 500 15px/24px var(--tui-font-text);
+  --tui-font-text-s: 400 13px/20px var(--tui-font-text);
+  --tui-font-text-s-bold: 500 13px/20px var(--tui-font-text);
+  --tui-font-text-xs: 400 11px/16px var(--tui-font-text);
+  --tds-color-text-01: #000000cc;
+  --tds-color-text-02: #0000007a;
+}
+:root {
+  --tui-font-text: dsText,"dsText Fallback",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+  --tui-font-text-m: 400 15px/24px var(--tui-font-text);
+  --tui-text-action: #126df7;
+  --tds-color-text-01: #000000cc;
+  --tds-color-text-02: #0000007a;
+  --tds-color-text-03: #00000066;
+  --tui-font-text-s: 400 13px/20px var(--tui-font-text);
+  --tui-font-text-xs: 400 11px/16px var(--tui-font-text);
+}
+:root {
+  --tui-font-heading: dsHeading,"dsHeading Fallback",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+  --tui-font-heading-1: 700 50px/56px var(--tui-font-heading);
+  --tui-font-heading-2: 700 44px/48px var(--tui-font-heading);
+  --tui-font-heading-3: 500 36px/40px var(--tui-font-heading);
+  --tui-font-heading-4: 500 28px/32px var(--tui-font-heading);
+  --tui-font-heading-5: 500 24px/28px var(--tui-font-heading);
+  --tui-font-heading-6: 500 20px/24px var(--tui-font-heading);
+  --tui-font-text-xl: 400 19px/28px var(--tui-font-text);
+  --tui-font-text-xl-bold: 500 19px/28px var(--tui-font-text);
+  --tui-font-text-ui-l-bold: 500 17px/24px var(--tui-font-text);
+  --tui-font-text-m-bold: 500 15px/24px var(--tui-font-text);
+  --tui-font-text-s-bold: 500 13px/20px var(--tui-font-text);
+  --tui-font-text-xs: 400 11px/16px var(--tui-font-text);
+  --tds-color-text-01: #000000cc;
+  --tds-color-text-02: #0000007a;
+}
+:root {
+  --tui-font-heading: dsHeading,"dsHeading Fallback",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+  --tui-font-heading-1: 700 50px/56px var(--tui-font-heading);
+  --tui-font-heading-2: 700 44px/48px var(--tui-font-heading);
+  --tui-font-heading-3: 500 36px/40px var(--tui-font-heading);
+  --tui-font-heading-4: 500 28px/32px var(--tui-font-heading);
+  --tui-font-heading-5: 500 24px/28px var(--tui-font-heading);
+  --tui-font-heading-6: 500 20px/24px var(--tui-font-heading);
+  --tui-font-text-xl: 400 19px/28px var(--tui-font-text);
+  --tui-font-text-xl-bold: 500 19px/28px var(--tui-font-text);
+  --tui-font-text-ui-l-bold: 500 17px/24px var(--tui-font-text);
+  --tui-font-text-m-bold: 500 15px/24px var(--tui-font-text);
+  --tui-font-text-s-bold: 500 13px/20px var(--tui-font-text);
+  --tui-font-text-xs: 400 11px/16px var(--tui-font-text);
+  --tds-color-text-01: #000000cc;
+  --tds-color-text-02: #0000007a;
+}
+:root {
+  --tds-color-text-02: #0000007a;
+  --tds-color-text-01: #000000cc;
+}
+
+:root {
+  --tds-color-text-01-inverse: #fff;
+  --tds-color-base-07: #575b61;
+}
+
+:root {
+  --tds-color-elevation-01: #fff;
+  --tds-color-base-04: #0010241f;
+  --tds-color-base-05: #00102438;
+  --tds-color-base-08: #2c2c2e;
+}
+
+
+
+:root {
+  font-size: 16px;
+  font-family: Roboto, serif;
+
+  --main-font-color: #000221;
+  --main-border-color: #000221;
+  --main-shadow-color: rgba(0, 2, 33, 0.44);
+}
+
+html, body {
+  color: var(--main-font-color);
+  height: 100%;
+  width: 100%;
+  background: #F6F7F8;
+
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.main-container {
+  flex: 1 0 auto;
+  width: 1104px;
+  height: 360px;
+  margin: 10% auto;
+
+}
+
+footer {
+  padding: 1rem;
+  margin-top: 1rem;
+  border-top: 1px solid var(--main-border-color);
+  box-shadow: var(--main-shadow-color) 0 -1px 4px 0 ;
+}
+
+main {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.section-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-block__title {
+
+}
+
+.section-block__inner {
+  display: flex;
+  column-gap: 3rem;
+
+}
+
+.section-block__img {
+  height: 360px;
+  width: 720px;
+}
+.section-block__text {
+
+}
+
+.section-block__text._hovered:hover {
+  color: blue;
+}
+
+.abMFSmasX {
+  position: relative;
+  z-index: 2
+}
+
+.abdsnvnCH {
+  box-shadow: 0 4px 56px rgba(0,0,0,.12)
+}
+
+.abUgY-\+aBN {
+  background-color: var(--tds-color-elevation-01);
+  color: var(--tds-color-text-01)
+}
+
+.abx4CIIeA {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0 16px
+}
+
+.abWi3QdfY {
+  align-items: stretch;
+  display: flex;
+  flex-direction: row;
+  min-height: 64px
+}
+
+.bbMFSmasX {
+  display: inline-flex
+}
+
+.abYHp995P {
+  background: url(https://www.cdn-tinkoff.ru/frontend-libraries/pfcore-static-assets/logos/main-logo.svg) 50%/cover;
+  height: 34px;
+  width: 150px
+}
+
+.dbWi3QdfY {
+  flex: 1 0
+}
+
+.abiTzQfy7 {
+  display: flex;
+  flex: 1 0;
+  flex-wrap: wrap;
+  height: 64px;
+  overflow: hidden;
+  padding-right: 24px
+}
+
+.bbiTzQfy7 {
+  justify-content: flex-start
+}
+
+.bbDT1CG5P {
+  align-items: stretch;
+  position: relative
+}
+
+.dbDT1CG5P {
+  color: var(--tds-color-text-02);
+  display: inline-flex;
+  font: 400 13px/20px dsText,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+  letter-spacing: 0;
+  outline: none;
+  position: relative;
+  text-decoration: none;
+  transition: .3s ease-in-out;
+  transition-property: color,box-shadow;
+  white-space: nowrap
+}
+
+.cbWi3QdfY,.dbWi3QdfY {
+  align-items: center;
+  display: flex
+}
+
+.dbDT1CG5P:hover.fbDT1CG5P {
+  box-shadow: inset 0 -3px 0 -1px var(--tds-color-base-04)
+}
+
+.dbDT1CG5P:hover.ebDT1CG5P.fbDT1CG5P,.ebDT1CG5P.fbDT1CG5P {
+  box-shadow: inset 0 -3px 0 -1px #666
+}
+
+.dbDT1CG5P:focus .gbDT1CG5P:before {
+  background-color: var(--tds-color-primary);
+  content: "";
+  display: inline-block;
+  height: 100%;
+  opacity: .32;
+  position: absolute;
+  width: 100%
+}
+
+.hbDT1CG5P {
+  color: rgba(0,0,0,.54)
+}
+
+.hbDT1CG5P.ebDT1CG5P,.hbDT1CG5P:hover {
+  color: rgba(0,0,0,.8)
+}
+
+.hbDT1CG5P:hover.fbDT1CG5P {
+  box-shadow: inset 0 -3px 0 -1px #dddfe0
+}
+
+.hbDT1CG5P.ebDT1CG5P.fbDT1CG5P,.hbDT1CG5P:hover.ebDT1CG5P.fbDT1CG5P {
+  box-shadow: inset 0 -3px 0 -1px #666
+}
+
+.ibDT1CG5P {
+  color: rgba(255,255,255,.72)
+}
+
+.ibDT1CG5P.ebDT1CG5P,.ibDT1CG5P:hover {
+  color: #fff
+}
+
+.ibDT1CG5P:hover.fbDT1CG5P {
+  box-shadow: inset 0 -3px 0 -1px #9299a2
+}
+
+.ibDT1CG5P.ebDT1CG5P.fbDT1CG5P,.ibDT1CG5P:hover.ebDT1CG5P.fbDT1CG5P {
+  box-shadow: inset 0 -3px 0 -1px #fff
+}
+
+
+.gbDT1CG5P {
+  position: relative
+}
+
+.abDT1CG5P {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-right: 24px
+}
+
+.cbWi3QdfY, .dbWi3QdfY {
+  align-items: center;
+  display: flex;
+}
+
+.bbiTzQfy7 {
+  justify-content: flex-start;
+}
+.bblSUnHg4 {
+  font: 400 13px/20px dsText,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+  letter-spacing: 0
+}
+
+.abiTzQfy7 {
+  display: flex;
+  flex: 1 0;
+  flex-wrap: wrap;
+  height: 64px;
+  overflow: hidden;
+  padding-right: 24px;
+}
+
+.abx4CIIeA:not(.bbx4CIIeA) {
+  max-width: 1200px;
+  padding: 0 48px;
+  width: 100%;
+}
+
+.abWi3QdfY>:not(:last-child) {
+  margin-right: 48px;
+}
+
+.dbDT1CG5P {
+  color: var(--tds-color-text-02);
+  display: inline-flex;
+  font: 400 13px/20px dsText,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+  letter-spacing: 0;
+  outline: none;
+  position: relative;
+  text-decoration: none;
+  transition: .3s ease-in-out;
+  transition-property: color,box-shadow;
+  white-space: nowrap;
+}
+
+.cbDT1CG5P, .dbDT1CG5P {
+  align-items: center;
+  height: 64px;
+}
+
+.first-block__img {
+  height: 460px;
+  width: auto;
+}
+
+:root{
+  --margin-description: 10px
+}
+
+.description_flex{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin-top: 0px;
+}
+
+.subtitle_description{
+  margin: 8px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  flex-flow: row nowrap;
+
+}
+
+.flex_description_full{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.subtitle_description_item{
+  margin-left: var(--margin-description);
+}
+
+.block_second_description{
+  width: 1360px;
+  height:428px;
+  flex: 1 0 auto;
+  margin: auto;
+
+}
+
+.block_second_flex{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.block_second_description_full{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  grid-gap: 50px;
+}
+
+.block_second_item{
+  width: 336px;
+  height: 232px;
+  padding: 32px;
+  border-radius: 24px;
+  gap: 24px;
+  background: #FFFFFF;
+  border: 0
+
+}
+
+
+.block_3_description{
+  width: 1360px;
+  height:428px;
+  flex: 1 0 auto;
+  margin: auto;
+
+}
+
+.block_3_flex{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.block_3_description_full{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  grid-gap: 50px;
+}
+
+.block_3_item{
+  width : 528px;
+  height :212px;
+  padding: 32px;
+  border-radius: 24px;
+  gap: 24px;
+  background: #FFFFFF;
+  border: 0
+}
+
+.block_3_subtitle{
+  width: 464px;
+  height: 124px;
+
+}
+
+.block_3_sub_desc_margin{
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  flex-flow: row nowrap;
+}
+
+.block_4_description{
+  width: 1360px;
+  height:428px;
+  flex: 1 0 auto;
+  margin: auto;
+
+}
+
+.block_4_flex{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.block_4_description_full{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  grid-gap: 50px;
+}
+
+.block_4_item{
+  width : 528px;
+  height :212px;
+  padding: 32px;
+  border-radius: 24px;
+  gap: 24px;
+  background: #FFFFFF;
+  border: 0
+}
+
+.block_4_subtitle{
+  width: 464px;
+  height: 124px;
+
+}
+
+.block_4_sub_desc_margin{
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  flex-flow: row nowrap;
+}
+
+
+
+.block_5_description{
+  width: 1360px;
+  height:428px;
+  flex: 1 0 auto;
+  margin: auto;
+
+}
+
+.block_5_flex{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.block_5_description_full{
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  grid-gap: 90px;
+}
+
+.block_5_colum_flex{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+
+.block_5_item{
+  width: 240px;
+  height: 188px;
+  border-radius: 24px;
+  background: #FFFFFF;
+  border: 0
+}
+
+.block_5_item_number{
+  position: absolute;
+  top: -15%;
+}
+
+.block_5_subtitle{
+  width: 176px;
+  height: 72px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-left: 30px;
+
+  margin-top: 75px;
+}
+
+
+.footer_size{
+  width: 1360px;
+  height: 128px;
+  top: 64px;
+}
+
+.footer_flex {
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.footer_license{
+  font-family: Roboto,sans-serif;
+  width: 528px;
+  height: 20px;
+  top: 148px;
+  left: 128px;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+
+}
+
+.footer_contact{
+  font-family: Roboto,sans-serif;
+  width: 238px;
+  height: 20px;
+  top: 148px;
+  left: 994px;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: right;
+}
+
+
+
+
+
+@font-face{
+  font-family: Roboto;
+}
+
+h2{
+  font-weight: 900;
+  font-size : 44px;
+  line-height: 48px;
+  font-family: Roboto, sans-serif;
+}
+
+h3{
+  font-family: Roboto, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+
+}
+
+
+span{
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+}
+
+.text_1{
+  font-family: Roboto,sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+
+.email_text{
+  color: #336FEE;
+}
+
+
+
+.ibfhkV4vA, .ibfhkV4vA:visited {
+  color: var(--tui-text-primary-on-accent-1);
+}
+.ibfhkV4vA {
+  background-color: var(--tui-background-accent-1);
+}
+
+.abfhkV4vA {
+  -webkit-tap-highlight-color: transparent;
+  align-items: center;
+  background-color: initial;
+  border: 0;
+  box-sizing: border-box;
+  color: var(--tui-text-primary);
+  cursor: pointer;
+  display: inline-flex;
+  height: auto;
+  justify-content: center;
+  line-height: normal;
+  margin: 0;
+  max-width: 100%;
+  outline: none;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition-duration: .3s;
+  transition-property: background-color,color;
+  transition-timing-function: ease-in-out;
+  vertical-align: middle;
+}
+
+
+
