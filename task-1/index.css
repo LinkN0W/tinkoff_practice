@@ -1,218 +1,18 @@
 
-
 :root {
-  --tds-color-text-03: rgba(0,0,0,.4);
-  --tds-color-text-01: rgba(0,0,0,.8);
-  --tds-color-warning-bg: rgba(250,182,25,.12);
-  --tds-color-link: #336fee;
-  --tds-color-link-hover: #1f50ba;
-  --tds-color-neutral-bg: rgba(121,129,140,.12);
-  --tds-color-warning-fill: #fab619;
-  --tds-color-success-fill: #00b92d;
-  --tds-color-error-fill: #f52222;
-  --tds-color-neutral-fill: #79818c;
-  --tds-color-info-fill: #428bf9;
-  --tds-color-base-06: #9299a2;
-  --tds-color-base-01: #fff;
-  --tds-color-focus: rgba(51, 51, 51, 0.48);
-  --tds-color-secondary: #ecf1f7;
-  --tds-color-base-09: #000;
-  --tds-color-base-03: #eaecee;
-  --tds-color-base-04: #dddfe0;
-  --tds-color-primary: #ffdd2d;
-  --tds-color-primary-text: rgba(0,0,0,.8);
-  --tds-color-accent: #428bf9;
-  --tds-color-success-bg: rgba(0,185,45,.12);
-  --tds-color-error-bg: rgba(224,31,25,.12);
-  --tds-color-info-bg: rgba(66,139,249,.12);
-  --tds-color-secondary-hover: #e4ebf3;
-  --tds-color-primary-hover: #fcc521;
-  --tds-color-text-negative-hover: #a00707;
-  --tds-color-text-positive-hover: #00701b;
-  --tds-color-base-07: #5c636b;
-  --tds-color-success-bg-hover: rgba(0,185,45,.24);
-  --tds-color-warning-bg-hover: rgba(250,182,25,.24);
-  --tds-color-error-bg-hover: rgba(224,31,25,.16);
-  --tds-color-neutral-bg-hover: rgba(121,129,140,.24);
-  --tds-color-info-bg-hover: rgba(66,139,249,.24);
-  --tds-color-base-02: #f6f7f8;
-  --tds-color-base-08: #333;
   --tds-color-text-02: rgba(0,0,0,.54);
-  --tds-color-base-05: #c7c9cc;
+  --tds-color-link: #336fee;
 }
 :root {
-  --tui-font-heading: dsHeading,"dsHeading Fallback",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
-  --tui-font-heading-1: 700 50px/56px var(--tui-font-heading);
-  --tui-font-heading-2: 700 44px/48px var(--tui-font-heading);
-  --tui-font-heading-3: 500 36px/40px var(--tui-font-heading);
-  --tui-font-heading-4: 500 28px/32px var(--tui-font-heading);
-  --tui-font-heading-5: 500 24px/28px var(--tui-font-heading);
-  --tui-font-heading-6: 500 20px/24px var(--tui-font-heading);
-  --tui-font-text-xl: 400 19px/28px var(--tui-font-text);
-  --tui-font-text-xl-bold: 500 19px/28px var(--tui-font-text);
-  --tui-font-text-ui-l-bold: 500 17px/24px var(--tui-font-text);
-  --tui-font-text-m-bold: 500 15px/24px var(--tui-font-text);
-  --tui-font-text-s-bold: 500 13px/20px var(--tui-font-text);
-  --tui-font-text-xs: 400 11px/16px var(--tui-font-text);
   --tds-color-text-01: #000000cc;
   --tds-color-text-02: #0000007a;
-}
-:root {
-  --tui-font-heading: dsHeading,"dsHeading Fallback",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
-  --tui-font-heading-1: 700 50px/56px var(--tui-font-heading);
-  --tui-font-heading-2: 700 44px/48px var(--tui-font-heading);
-  --tui-font-heading-3: 500 36px/40px var(--tui-font-heading);
-  --tui-font-heading-4: 500 28px/32px var(--tui-font-heading);
-  --tui-font-heading-5: 500 24px/28px var(--tui-font-heading);
-  --tui-font-heading-6: 500 20px/24px var(--tui-font-heading);
-  --tui-font-text-xl: 400 19px/28px var(--tui-font-text);
-  --tui-font-text-xl-bold: 500 19px/28px var(--tui-font-text);
-  --tui-font-text-ui-l-bold: 500 17px/24px var(--tui-font-text);
-  --tui-font-text-m-bold: 500 15px/24px var(--tui-font-text);
-  --tui-font-text-s-bold: 500 13px/20px var(--tui-font-text);
-  --tui-font-text-xs: 400 11px/16px var(--tui-font-text);
-  --tds-color-text-01: #000000cc;
-  --tds-color-text-02: #0000007a;
-}
-:root {
-  --tui-font-heading-1: 700 50px/56px var(--tui-font-heading);
-  --tui-font-heading-2: 700 44px/48px var(--tui-font-heading);
-  --tui-font-heading-4: 500 28px/32px var(--tui-font-heading);
-  --tui-font-text-xl: 400 19px/28px var(--tui-font-text);
-  --tui-font-text-xl-bold: 500 19px/28px var(--tui-font-text);
-  --tui-font-text-ui-l-bold: 500 17px/24px var(--tui-font-text);
-  --tui-font-text-m-bold: 500 15px/24px var(--tui-font-text);
-  --tui-font-text-s-bold: 500 13px/20px var(--tui-font-text);
-  --tui-font-text-xs: 400 11px/16px var(--tui-font-text);
-  --tds-color-text-01: #000000cc;
-  --tds-color-text-02: #0000007a;
-  --tds-color-text-03: #00000066;
-}
-:root {
-  --tui-font-heading: dsHeading,"dsHeading Fallback",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
-  --tui-font-heading-1: 700 50px/56px var(--tui-font-heading);
-  --tui-font-heading-2: 700 44px/48px var(--tui-font-heading);
-  --tui-font-heading-3: 500 36px/40px var(--tui-font-heading);
-  --tui-font-heading-4: 500 28px/32px var(--tui-font-heading);
-  --tui-font-heading-5: 500 24px/28px var(--tui-font-heading);
-  --tui-font-heading-6: 500 20px/24px var(--tui-font-heading);
-  --tui-font-text: dsText,"dsText Fallback",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
-  --tui-font-text-xl: 400 19px/28px var(--tui-font-text);
-  --tui-font-text-xl-bold: 500 19px/28px var(--tui-font-text);
-  --tui-font-text-ui-l: 400 17px/24px var(--tui-font-text);
-  --tui-font-text-ui-l-bold: 500 17px/24px var(--tui-font-text);
-  --tui-font-text-m: 400 15px/24px var(--tui-font-text);
-  --tui-font-text-m-bold: 500 15px/24px var(--tui-font-text);
-  --tui-font-text-s: 400 13px/20px var(--tui-font-text);
-  --tui-font-text-s-bold: 500 13px/20px var(--tui-font-text);
-  --tui-font-text-xs: 400 11px/16px var(--tui-font-text);
-  --tds-color-text-01: #000000cc;
-  --tds-color-text-02: #0000007a;
-}
-:root {
-  --tui-font-heading: dsHeading,"dsHeading Fallback",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
-  --tui-font-heading-1: 700 50px/56px var(--tui-font-heading);
-  --tui-font-heading-2: 700 44px/48px var(--tui-font-heading);
-  --tui-font-heading-3: 500 36px/40px var(--tui-font-heading);
-  --tui-font-heading-4: 500 28px/32px var(--tui-font-heading);
-  --tui-font-heading-5: 500 24px/28px var(--tui-font-heading);
-  --tui-font-heading-6: 500 20px/24px var(--tui-font-heading);
-  --tui-font-text: dsText,"dsText Fallback",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
-  --tui-font-text-xl: 400 19px/28px var(--tui-font-text);
-  --tui-font-text-xl-bold: 500 19px/28px var(--tui-font-text);
-  --tui-font-text-ui-l: 400 17px/24px var(--tui-font-text);
-  --tui-font-text-ui-l-bold: 500 17px/24px var(--tui-font-text);
-  --tui-font-text-m: 400 15px/24px var(--tui-font-text);
-  --tui-font-text-m-bold: 500 15px/24px var(--tui-font-text);
-  --tui-font-text-s: 400 13px/20px var(--tui-font-text);
-  --tui-font-text-s-bold: 500 13px/20px var(--tui-font-text);
-  --tui-font-text-xs: 400 11px/16px var(--tui-font-text);
-  --tds-color-text-01: #000000cc;
-  --tds-color-text-02: #0000007a;
-}
-:root {
-  --tui-font-heading: dsHeading,"dsHeading Fallback",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
-  --tui-font-heading-1: 700 50px/56px var(--tui-font-heading);
-  --tui-font-heading-2: 700 44px/48px var(--tui-font-heading);
-  --tui-font-heading-3: 500 36px/40px var(--tui-font-heading);
-  --tui-font-heading-4: 500 28px/32px var(--tui-font-heading);
-  --tui-font-heading-5: 500 24px/28px var(--tui-font-heading);
-  --tui-font-heading-6: 500 20px/24px var(--tui-font-heading);
-  --tui-font-text: dsText,"dsText Fallback",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
-  --tui-font-text-xl: 400 19px/28px var(--tui-font-text);
-  --tui-font-text-xl-bold: 500 19px/28px var(--tui-font-text);
-  --tui-font-text-ui-l: 400 17px/24px var(--tui-font-text);
-  --tui-font-text-ui-l-bold: 500 17px/24px var(--tui-font-text);
-  --tui-font-text-m: 400 15px/24px var(--tui-font-text);
-  --tui-font-text-m-bold: 500 15px/24px var(--tui-font-text);
-  --tui-font-text-s: 400 13px/20px var(--tui-font-text);
-  --tui-font-text-s-bold: 500 13px/20px var(--tui-font-text);
-  --tui-font-text-xs: 400 11px/16px var(--tui-font-text);
-  --tds-color-text-01: #000000cc;
-  --tds-color-text-02: #0000007a;
-}
-:root {
-  --tui-font-text: dsText,"dsText Fallback",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
-  --tui-font-text-m: 400 15px/24px var(--tui-font-text);
-  --tui-text-action: #126df7;
-  --tds-color-text-01: #000000cc;
-  --tds-color-text-02: #0000007a;
-  --tds-color-text-03: #00000066;
-  --tui-font-text-s: 400 13px/20px var(--tui-font-text);
-  --tui-font-text-xs: 400 11px/16px var(--tui-font-text);
-}
-:root {
-  --tui-font-heading: dsHeading,"dsHeading Fallback",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
-  --tui-font-heading-1: 700 50px/56px var(--tui-font-heading);
-  --tui-font-heading-2: 700 44px/48px var(--tui-font-heading);
-  --tui-font-heading-3: 500 36px/40px var(--tui-font-heading);
-  --tui-font-heading-4: 500 28px/32px var(--tui-font-heading);
-  --tui-font-heading-5: 500 24px/28px var(--tui-font-heading);
-  --tui-font-heading-6: 500 20px/24px var(--tui-font-heading);
-  --tui-font-text-xl: 400 19px/28px var(--tui-font-text);
-  --tui-font-text-xl-bold: 500 19px/28px var(--tui-font-text);
-  --tui-font-text-ui-l-bold: 500 17px/24px var(--tui-font-text);
-  --tui-font-text-m-bold: 500 15px/24px var(--tui-font-text);
-  --tui-font-text-s-bold: 500 13px/20px var(--tui-font-text);
-  --tui-font-text-xs: 400 11px/16px var(--tui-font-text);
-  --tds-color-text-01: #000000cc;
-  --tds-color-text-02: #0000007a;
-}
-:root {
-  --tui-font-heading: dsHeading,"dsHeading Fallback",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
-  --tui-font-heading-1: 700 50px/56px var(--tui-font-heading);
-  --tui-font-heading-2: 700 44px/48px var(--tui-font-heading);
-  --tui-font-heading-3: 500 36px/40px var(--tui-font-heading);
-  --tui-font-heading-4: 500 28px/32px var(--tui-font-heading);
-  --tui-font-heading-5: 500 24px/28px var(--tui-font-heading);
-  --tui-font-heading-6: 500 20px/24px var(--tui-font-heading);
-  --tui-font-text-xl: 400 19px/28px var(--tui-font-text);
-  --tui-font-text-xl-bold: 500 19px/28px var(--tui-font-text);
-  --tui-font-text-ui-l-bold: 500 17px/24px var(--tui-font-text);
-  --tui-font-text-m-bold: 500 15px/24px var(--tui-font-text);
-  --tui-font-text-s-bold: 500 13px/20px var(--tui-font-text);
-  --tui-font-text-xs: 400 11px/16px var(--tui-font-text);
-  --tds-color-text-01: #000000cc;
-  --tds-color-text-02: #0000007a;
-}
-:root {
-  --tds-color-text-02: #0000007a;
-  --tds-color-text-01: #000000cc;
-}
-
-:root {
-  --tds-color-text-01-inverse: #fff;
-  --tds-color-base-07: #575b61;
 }
 
 :root {
   --tds-color-elevation-01: #fff;
   --tds-color-base-04: #0010241f;
-  --tds-color-base-05: #00102438;
-  --tds-color-base-08: #2c2c2e;
+
 }
-
-
 
 :root {
   font-size: 16px;
@@ -289,48 +89,48 @@ main {
   color: blue;
 }
 
-.abMFSmasX {
+.positon_div {
   position: relative;
   z-index: 2
 }
 
-.abdsnvnCH {
+.shadow {
   box-shadow: 0 4px 56px rgba(0,0,0,.12)
 }
 
-.abUgY-\+aBN {
+.color_tds {
   background-color: var(--tds-color-elevation-01);
   color: var(--tds-color-text-01)
 }
 
-.abx4CIIeA {
+.border_div {
   box-sizing: border-box;
   margin: 0 auto;
   padding: 0 16px
 }
 
-.abWi3QdfY {
+.header_flex {
   align-items: stretch;
   display: flex;
   flex-direction: row;
   min-height: 64px
 }
 
-.bbMFSmasX {
+.flex_inline_elem {
   display: inline-flex
 }
 
-.abYHp995P {
+.background_header {
   background: url(https://www.cdn-tinkoff.ru/frontend-libraries/pfcore-static-assets/logos/main-logo.svg) 50%/cover;
   height: 34px;
   width: 150px
 }
 
-.dbWi3QdfY {
+.header_elem_order {
   flex: 1 0
 }
 
-.abiTzQfy7 {
+.panel_flex {
   display: flex;
   flex: 1 0;
   flex-wrap: wrap;
@@ -339,16 +139,16 @@ main {
   padding-right: 24px
 }
 
-.bbiTzQfy7 {
+.panel_elements {
   justify-content: flex-start
 }
 
-.bbDT1CG5P {
+.elem_align {
   align-items: stretch;
   position: relative
 }
 
-.dbDT1CG5P {
+.text_elem_panel {
   color: var(--tds-color-text-02);
   display: inline-flex;
   font: 400 13px/20px dsText,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
@@ -361,87 +161,38 @@ main {
   white-space: nowrap
 }
 
-.cbWi3QdfY,.dbWi3QdfY {
+.align_div,.header_elem_order {
   align-items: center;
   display: flex
 }
 
-.dbDT1CG5P:hover.fbDT1CG5P {
-  box-shadow: inset 0 -3px 0 -1px var(--tds-color-base-04)
-}
-
-.dbDT1CG5P:hover.ebDT1CG5P.fbDT1CG5P,.ebDT1CG5P.fbDT1CG5P {
-  box-shadow: inset 0 -3px 0 -1px #666
-}
-
-.dbDT1CG5P:focus .gbDT1CG5P:before {
-  background-color: var(--tds-color-primary);
-  content: "";
-  display: inline-block;
-  height: 100%;
-  opacity: .32;
-  position: absolute;
-  width: 100%
-}
-
-.hbDT1CG5P {
-  color: rgba(0,0,0,.54)
-}
-
-.hbDT1CG5P.ebDT1CG5P,.hbDT1CG5P:hover {
-  color: rgba(0,0,0,.8)
-}
-
-.hbDT1CG5P:hover.fbDT1CG5P {
-  box-shadow: inset 0 -3px 0 -1px #dddfe0
-}
-
-.hbDT1CG5P.ebDT1CG5P.fbDT1CG5P,.hbDT1CG5P:hover.ebDT1CG5P.fbDT1CG5P {
-  box-shadow: inset 0 -3px 0 -1px #666
-}
-
-.ibDT1CG5P {
-  color: rgba(255,255,255,.72)
-}
-
-.ibDT1CG5P.ebDT1CG5P,.ibDT1CG5P:hover {
-  color: #fff
-}
-
-.ibDT1CG5P:hover.fbDT1CG5P {
-  box-shadow: inset 0 -3px 0 -1px #9299a2
-}
-
-.ibDT1CG5P.ebDT1CG5P.fbDT1CG5P,.ibDT1CG5P:hover.ebDT1CG5P.fbDT1CG5P {
-  box-shadow: inset 0 -3px 0 -1px #fff
-}
 
 
-.gbDT1CG5P {
+.elem_content {
   position: relative
 }
 
-.abDT1CG5P {
+.panel_elem {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   margin-right: 24px
 }
 
-.cbWi3QdfY, .dbWi3QdfY {
+.align_div, .header_elem_order {
   align-items: center;
   display: flex;
 }
 
-.bbiTzQfy7 {
+.panel_elements {
   justify-content: flex-start;
 }
-.bblSUnHg4 {
+.text_exit {
   font: 400 13px/20px dsText,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
   letter-spacing: 0
 }
 
-.abiTzQfy7 {
+.panel_flex {
   display: flex;
   flex: 1 0;
   flex-wrap: wrap;
@@ -450,17 +201,17 @@ main {
   padding-right: 24px;
 }
 
-.abx4CIIeA:not(.bbx4CIIeA) {
+.border_div:not(.bbx4CIIeA) {
   max-width: 1200px;
   padding: 0 48px;
   width: 100%;
 }
 
-.abWi3QdfY>:not(:last-child) {
+.header_flex>:not(:last-child) {
   margin-right: 48px;
 }
 
-.dbDT1CG5P {
+.text_elem_panel {
   color: var(--tds-color-text-02);
   display: inline-flex;
   font: 400 13px/20px dsText,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
@@ -473,7 +224,7 @@ main {
   white-space: nowrap;
 }
 
-.cbDT1CG5P, .dbDT1CG5P {
+.cbDT1CG5P, .text_elem_panel {
   align-items: center;
   height: 64px;
 }
@@ -722,10 +473,10 @@ main {
 
 .footer_contact{
   font-family: Roboto,sans-serif;
-  width: 238px;
+  width: 400px;
   height: 20px;
   top: 148px;
-  left: 994px;
+  left: 980px;
   font-size: 13px;
   font-weight: 400;
   line-height: 20px;
@@ -778,39 +529,36 @@ span{
   color: #336FEE;
 }
 
-
-
-.ibfhkV4vA, .ibfhkV4vA:visited {
-  color: var(--tui-text-primary-on-accent-1);
-}
-.ibfhkV4vA {
-  background-color: var(--tui-background-accent-1);
-}
-
-.abfhkV4vA {
-  -webkit-tap-highlight-color: transparent;
+.exit_flex {
   align-items: center;
-  background-color: initial;
-  border: 0;
-  box-sizing: border-box;
-  color: var(--tui-text-primary);
-  cursor: pointer;
-  display: inline-flex;
-  height: auto;
-  justify-content: center;
-  line-height: normal;
-  margin: 0;
-  max-width: 100%;
-  outline: none;
-  padding: 0;
-  position: relative;
-  text-align: center;
-  text-decoration: none;
-  transition-duration: .3s;
-  transition-property: background-color,color;
-  transition-timing-function: ease-in-out;
-  vertical-align: middle;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
 }
 
+.exit_elem {
+  align-items: center;
+  color: var(--tds-color-link);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  outline: none;
+  position: relative;
+  text-decoration: none;
+  transition: .3s ease-in-out;
+}
+
+.exit_margin {
+  margin-left: 8px;
+}
+
+button{
+  width: 150px;
+  height: 56px;
+  border-radius: 8px;
+  background: #FFDD2D;
+  border: 0
+
+}
 
 
